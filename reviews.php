@@ -27,3 +27,5 @@ $reviews = mysqli_fetch_all($data, MYSQLI_ASSOC);
     </div>
   <?php endforeach ?>
 </article>
+
+<?php include 'inc/footer.php' ?>

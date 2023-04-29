@@ -23,9 +23,9 @@ if (isset($_POST['submit'])) {
 }
 ?>
 
-
 <div class="container has-text-centered">
     <h1 class="title is-underlined mt-6">Feedback</h1>
+    <p class="subtitle mt-1"><sub>please leave your feedback, so we can serve you better</sub></p>
     <p><img src="img/logo.png" alt="logo" width="200px" height="200px" /></p>
 </div>
 </header>
@@ -49,10 +49,4 @@ if (isset($_POST['submit'])) {
     </div>
     <button type="submit" class="button is-dark is-fullwidth" name="submit">Send</button>
 </form>
-</article>
-</body>
-<footer class="footer">
-    <p class="content has-text-centered">Copyright @ 2022</p>
-</footer>
-
-</html>
+<?php include "inc/footer.php";
